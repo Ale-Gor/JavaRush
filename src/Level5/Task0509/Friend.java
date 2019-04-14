@@ -17,6 +17,12 @@ public class Friend {
         this.age = 22;
         this.sex = 'm';
 
+
+    }    void initiolize(String name, int age, char sex){
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
+
     }
 
 
