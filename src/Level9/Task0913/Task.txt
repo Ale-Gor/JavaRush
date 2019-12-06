@@ -1,0 +1,14 @@
+Есть метод, который выбрасывает два исключения, унаследованные от Exception, и два унаследованных от RuntimeException:
+NullPointerException, ArithmeticException, FileNotFoundException, URISyntaxException.
+
+Нужно перехватить NullPointerException и FileNotFoundException, но не перехватывать
+ArithmeticException и URISyntaxException.
+Как это сделать?
+
+Требования:
+•	Метод main должен вызывать метод method1.
+•	Метод main должен перехватывать исключение NullPointerException.
+•	Метод main должен перехватывать исключение FileNotFoundException.
+•	Метод main не должен перехватывать исключение ArithmeticException.
+•	Метод main не должен перехватывать исключение URISyntaxException.
+•	Метод method1 не изменять.

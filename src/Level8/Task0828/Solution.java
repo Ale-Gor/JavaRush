@@ -1,0 +1,14 @@
+package Level8.Task0828;
+
+
+import java.io.IOException;
+
+/*
+Номер месяца
+*/
+
+public class Solution {
+  public static void main(String[] args) throws IOException {
+    //напишите тут ваш код
+  }
+}

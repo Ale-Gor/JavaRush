@@ -1,21 +1,17 @@
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
+import java.util.Date;
 
 public class ForTyping {
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws InterruptedException {
+    Date currentTime = new Date();
 
-    Set<String> set = new HashSet<String>();
-    set.add("Mama");
-    set.add("Mila");
-    set.add("Ramu");
+    int hours = currentTime.getHours();
+    int mins = currentTime.getMinutes();
+    int secs = currentTime.getSeconds();
 
-    for (String text:set){
-      System.out.println(text);
+    System.out.println("Time from midnight "+ hours + ":" + mins + ":" + secs);
+
     }
 
   }
-}
+
